@@ -1,7 +1,7 @@
 # Monty-Python-page
 ##Welcome to my Monty Python's Round Table webpage project, a lighthearted, Monty Python-themed page to learn the basics of web development
 
-### HTML bullets points from the project : 
+###HTML bullets points from the project : 
 
 Doctype, HTML, Head, and Body: The base of the HTML document structure
 Meta tags, title, link to the stylesheet and to the JS file for scripts
@@ -12,7 +12,7 @@ Strong: Used for emphasizing certain parts of the text (The names for the quotes
 
 
 
-### For CSS parts: 
+###For CSS parts: 
 
 Fonts: Imported a fancy font 'Playfair Display' from Google Fonts to make the page look a bit more medieval
 Flexboxes: Used for easy alignment and spacing of the webpage elements.
@@ -21,7 +21,7 @@ Text and Box Shadows: Added for visual depth on certain elements
 
 
 
-### Javascript part: 
+###Javascript part: 
 
 It was rather simple as the project was more about creating the webpage than it's interaction 
 There was still some small things added like:
