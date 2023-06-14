@@ -42,6 +42,7 @@ header ul {
     image-rendering: auto;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .welcomeMessage {
@@ -74,18 +75,42 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
+.first {
+    background-image: url(images/lancelot.png);
+    background-size: cover;
+}
+.second {
+    background-image: url(images/king_arthur.png);
+    background-size: cover;
+}
+.third {
+    background-image: url(images/bedevere.png);
+    background-size: cover;
+}
+.fourth {
+    background-image: url(images/sir_robin.png);
+    background-size: cover;
+}
+.fifth {
+    background-image: url(images/rabbit.png);
+    background-size: cover;
+}
+
 .secondRow {
     margin: 10px 100px;
 }
 .box {
     border: solid black 3px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .textImage {
-    max-width: 150px;
+    max-width: 160px;
+    text-align: center;
+    margin: auto;
 }
 
 #logo {
@@ -93,4 +118,13 @@ a {
     max-height: 50px;
     border-radius: 50px;
     margin: 5px;
+}
+
+.partThree {
+    min-height: 300px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 215, 215);
 }
