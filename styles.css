@@ -32,21 +32,23 @@ header ul {
     align-items: center;
     margin-left: 3vw;
     color: #f9faf8;
+    flex-wrap: wrap;
       
 }
 
 #knightsImage {
     background-color: gray;
-    width: 600px;
+    max-width: 600px;
+    min-width: 300px;
     margin: 20px;
     image-rendering: auto;
-    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
 .welcomeMessage {
     max-width: 400px;
+    font-size: 1.2em;
 }
 
 h1 {
@@ -74,6 +76,7 @@ a {
 .firstRow, .secondRow {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .first {
     background-image: url(images/lancelot.png);

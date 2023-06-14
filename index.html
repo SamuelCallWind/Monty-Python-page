@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The round table</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="darkBackground">
@@ -14,15 +15,22 @@
                 <a href="#"><img src="images/logo.jpg" id="logo" alt="Header logo"></a>
                 <ul class="listHeader">
                     <li><a href="http://triggs.djvu.org/djvu-editions.com/BIBLES/DRV/Download.pdf">The Holy Bible</a></li>
-                    <li>Coconut horse</li>
-                    <li>header link three</li>
+                    <li>
+                        <a href="#" onclick="playAudio('coconut')">Coconut Horse</a>
+                        <audio id="coconut" src="sounds/coconuts_horse.mp3" type="audio/mp3">Coconut horse</audio>
+                    </li>
+                    <li>
+                        <a href="#" onclick="playAudio('handGrenade')">Holy Hand Grenade</a>
+                        <audio id="handGrenade" src="sounds/holy_hand_grenade.mp3"></audio>
+                    </li>
+                    
                 </ul>
             </div>
         </header>
         <div class="partOne">
             <div class="welcomeMessage">
                 <h1>Welcome to the round table</h1>
-                <p>Welcome, you gallant gaggle of gigglers! Gather around our cherished, yet slightly worn-out Round Table. Take a seat, but keep thy wits about you - the drinks are as trustworthy as a minstrel's tale. Here, every voice counts, even Sir Bedevere's, who insists that ducks and coconuts share mysterious properties. So, strap in, speak up, and let's venture forth into the wild realms of rampant, rollicking absurdity! Let the funniness ensue!</p>
+                <p>Welcome, brave and slightly bewildered souls! Gather round our well-worn Round Table. Beware of the chairs, they're as fickle as a minstrel's tale. Now, onto noble nonsense and gallant guffaws! Onward!</p>
                 <button class="randomButton">Click on me, you won't be disappointed</button>
             </div>
             <img src="images/knights.jpg" id="knightsImage" placeholder="The knights of the round table (Monty Python)">
@@ -33,25 +41,25 @@
         <div class="firstRow">
             <div id="firstChar">
                 <div class="box first"></div>
-                <p class="textImage">“We have the Holy hand grenade”</p>
+                <p class="textImage">“We have the Holy hand grenade” <strong>- Lancelot</strong></p>
             </div>
             <div id="secondChar">
                 <div class="box second"></div>
-                <p class="textImage">“On second thought, let’s not go to Camelot. ‘Tis a silly place.”</p>
+                <p class="textImage">“On second thought, let’s not go to Camelot. ‘Tis a silly place.” <strong>- King Arthur</strong></p>
             </div>
             <div id="thirdChar">
                 <div class="box third"></div>
-                <p class="textImage">“Well, now, uh, Launcelot, Galahad, and I, wait until nightfall, and then leap out of the rabbit, taking the French by surprise – not only by surprise, but totally unarmed!”</p>
+                <p class="textImage">“Well, now, uh, Launcelot, Galahad, and I, wait until nightfall, and then leap out of the rabbit, taking the French by surprise – not only by surprise, but totally unarmed!” <strong>- Bedevere</strong></p>
             </div>
         </div>
         <div class="secondRow">
             <div id="fourthChar">
                 <div class="box fourth"></div>
-                <p class="textImage">“Would it help to confuse it if we run away more?”</p>
+                <p class="textImage">“Would it help to confuse it if we run away more?” <strong>- sir Robin</strong></p>
             </div>
             <div id="fifthChar">
                 <div class="box fifth"></div>
-                <p class="textImage">...</p>
+                <p class="textImage">... <strong>- Rabbit of Caerbannog</strong></p>
             </div>
         </div>
     </div>
