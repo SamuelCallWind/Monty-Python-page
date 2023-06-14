@@ -14,7 +14,7 @@
             <div class="headerContainer">
                 <a href="#"><img src="images/logo.jpg" id="logo" alt="Header logo"></a>
                 <ul class="listHeader">
-                    <li><a href="http://triggs.djvu.org/djvu-editions.com/BIBLES/DRV/Download.pdf">The Holy Bible</a></li>
+                    <li><a target="_blank" href="http://triggs.djvu.org/djvu-editions.com/BIBLES/DRV/Download.pdf">The Holy Bible</a></li>
                     <li>
                         <a href="#" onclick="playAudio('coconut')">Coconut Horse</a>
                         <audio id="coconut" src="sounds/coconuts_horse.mp3" type="audio/mp3">Coconut horse</audio>
@@ -31,7 +31,8 @@
             <div class="welcomeMessage">
                 <h1>Welcome to the round table</h1>
                 <p>Welcome, brave and slightly bewildered souls! Gather round our well-worn Round Table. Beware of the chairs, they're as fickle as a minstrel's tale. Now, onto noble nonsense and gallant guffaws! Onward!</p>
-                <button class="randomButton">Click on me, you won't be disappointed</button>
+                <button id="randomButton">Click on me, you shall not be disappointed</button>
+                <div id="boxRandomQuote"></div>
             </div>
             <img src="images/knights.jpg" id="knightsImage" placeholder="The knights of the round table (Monty Python)">
         </div>
@@ -65,6 +66,13 @@
     </div>
     <div class="partThree">
         <p>“Every time I try to talk to someone it’s ‘sorry this’ and ‘forgive me that’ and ‘I’m not worthy.’” <strong>– God</strong></p>
+    </div>
+    <div class="partFour">
+        <div id="callToAction">
+            <p>Hail, brave wanderer! A quest of epic proportions awaits. Fear not the unknown, for bravery and a dash of lunacy are all that's required. Unsheathe thy courage, and click on yonder link to join us in our roundtable of laughter and high nonsense. Onward, to glory and silliness!</p>
+            <div id="buttonCallToAction"><a target="_blank" href="https://www.youtube.com/watch?v=895eSm4oQRw&ab_channel=CzyLoon">Sign Up</a></div>
+        </div>
+        
     </div>
 </body>
 </html>
