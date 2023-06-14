@@ -1,5 +1,5 @@
 # Monty-Python-page
-##Welcome to my Monty Python's Round Table webpage project, a lighthearted, Monty Python-themed page to learn the basics of web development
+## Welcome to my Monty Python's Round Table webpage project, a lighthearted, Monty Python-themed page to learn the basics of web development
 
 ### HTML bullets points from the project : 
 
